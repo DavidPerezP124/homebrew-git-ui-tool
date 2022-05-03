@@ -12,7 +12,7 @@ class GitUiTool < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_darwin_arm64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "25aff37c636b3da824ebfbca591d87fb9ed3e3e9b117b6cac15526d8ace54419"
+      sha256 "d4b2aeb44a23b01325928f90bad9d0e6fe0b9b10c0746c24c5445d49ed340290"
 
       def install
         bin.install "git-tool"
@@ -20,7 +20,7 @@ class GitUiTool < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "08fc502f39c90a20c92a4089d05464cf8689c4dcec0297fe2523d23b8ff5b560"
+      sha256 "7d503704db80601558415fdf5b003b273281cf265285041b66d04c7239285be7"
 
       def install
         bin.install "git-tool"
@@ -31,7 +31,7 @@ class GitUiTool < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_linux_arm64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "e4e5843a7cbaeaef501a970251f97285adf7b39fe1f495c787bd8d83bb64a477"
+      sha256 "5c84de51f54c17c3b8d9acdc7e7d5d287828c5292871a2db50bde9bce5d80676"
 
       def install
         bin.install "git-tool"
@@ -39,7 +39,7 @@ class GitUiTool < Formula
     end
     if Hardware::CPU.intel?
       url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_linux_amd64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "acb9922ffd6317a90d9ed42bc5f78b139c4c6a19c3f828840287896c6129bfbe"
+      sha256 "4734c7e09684aa10d94577effe3fe4c91cf0ec2ef26b55832816c5110de89006"
 
       def install
         bin.install "git-tool"
