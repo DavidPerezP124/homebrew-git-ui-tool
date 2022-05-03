@@ -6,21 +6,21 @@ require_relative "custom_download_strategy"
 class GitUiTool < Formula
   desc "A TUI to add & edit git hooks, edit the commit message, edit a custom git log."
   homepage "https://github.com/DavidPerezP124/homebrew-git-ui-tool"
-  version "0.1.0"
+  version "0.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.1.0/git-tool_0.1.0_darwin_arm64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "e57adb3db5798f1cebedf0d584a66efa8b8bbf41604df890780b3820b16a7b72"
+      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_darwin_arm64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "25aff37c636b3da824ebfbca591d87fb9ed3e3e9b117b6cac15526d8ace54419"
 
       def install
         bin.install "git-tool"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.1.0/git-tool_0.1.0_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "af21a5a79f5613f6e910fa767254bfa8f80598f823cd242acd1a817b20ecb2b9"
+      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_darwin_amd64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "08fc502f39c90a20c92a4089d05464cf8689c4dcec0297fe2523d23b8ff5b560"
 
       def install
         bin.install "git-tool"
@@ -30,16 +30,16 @@ class GitUiTool < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.1.0/git-tool_0.1.0_linux_arm64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "c6a4d025d28103a584a4fc51ff4f796a4fcba48838eeb360a2c447a5942b4f90"
+      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_linux_arm64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "e4e5843a7cbaeaef501a970251f97285adf7b39fe1f495c787bd8d83bb64a477"
 
       def install
         bin.install "git-tool"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.1.0/git-tool_0.1.0_linux_amd64.tar.gz", :using => CurlDownloadStrategy
-      sha256 "3c5f231d67bd52b78373969cbb1a1296cf50bc3a99c0d4243467bf35ec2fd8bb"
+      url "https://github.com/DavidPerezP124/git-tool/releases/download/v0.0.1/git-tool_0.0.1_linux_amd64.tar.gz", :using => CurlDownloadStrategy
+      sha256 "acb9922ffd6317a90d9ed42bc5f78b139c4c6a19c3f828840287896c6129bfbe"
 
       def install
         bin.install "git-tool"
