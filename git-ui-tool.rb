@@ -48,5 +48,4 @@ class GitUiTool < Formula
       end
     end
   end
-
- end
+end
