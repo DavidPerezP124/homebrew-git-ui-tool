@@ -5,43 +5,43 @@
 class GitUiTool < Formula
   desc "TUI for managing git hooks, git commit message and git log"
   homepage "https://github.com/DavidPerezP124/homebrew-git-ui-tool"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.3/homebrew-git-ui-tool_0.0.3_Darwin_arm64.tar.gz"
-      sha256 "bdf52a093188b0f8597252bf106699b0322a13c802dd89974689c14b73698eae"
+      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.4/homebrew-git-ui-tool_0.0.4_Darwin_arm64.tar.gz"
+      sha256 "957ce83937aa9ce775f7bac07a5097f3817993b385b7b9c1a391ef143b6fee60"
 
       def install
-        bin.install "homebrew-git-ui-tool"
+        bin.install "git-ui-tool"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.3/homebrew-git-ui-tool_0.0.3_Darwin_x86_64.tar.gz"
-      sha256 "aac89f9130612555b474cd3b5ebbd570c2611b34e980a3ae5eb24190c13a5a69"
+      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.4/homebrew-git-ui-tool_0.0.4_Darwin_x86_64.tar.gz"
+      sha256 "26bcfec83a84dc4b701536b08b602de509549e4e8452722028531e1ff1c9093f"
 
       def install
-        bin.install "homebrew-git-ui-tool"
+        bin.install "git-ui-tool"
       end
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.3/homebrew-git-ui-tool_0.0.3_Linux_arm64.tar.gz"
-      sha256 "1f95721f60563e3096a7c4a5ac40eff0067f578d3925a61e9d9e98c5c09926b6"
+      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.4/homebrew-git-ui-tool_0.0.4_Linux_arm64.tar.gz"
+      sha256 "27fbecae81d7de4b7f968191ad5c584540c4361cf50c2962b2e6bd0e8e60c507"
 
       def install
-        bin.install "homebrew-git-ui-tool"
+        bin.install "git-ui-tool"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.3/homebrew-git-ui-tool_0.0.3_Linux_x86_64.tar.gz"
-      sha256 "41b4ebaaee6cdf0ddd3bcc86593bd1d659a6a623958681244002d986356f534c"
+      url "https://github.com/DavidPerezP124/homebrew-git-ui-tool/releases/download/v0.0.4/homebrew-git-ui-tool_0.0.4_Linux_x86_64.tar.gz"
+      sha256 "a164d5c9489b843d9013f4177c46579d4dc1ccfb27333c9c4513810ceab13631"
 
       def install
-        bin.install "homebrew-git-ui-tool"
+        bin.install "git-ui-tool"
       end
     end
   end
