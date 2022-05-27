@@ -1,6 +1,6 @@
 # DavidPerezP124 Git-ui-tool
 
-![Screen Shot 2022-05-03 at 20 38 01](https://user-images.githubusercontent.com/32963483/166612559-80ec0d34-6930-4592-ac89-f7e6ecb2c55e.png)
+![Screen Shot 2022-05-26 at 19 22 29](https://user-images.githubusercontent.com/32963483/170604628-be1fb796-a7e4-4467-a0e5-1c62634a9cd1.png)
 
 
 This git TUI tool has several functions
