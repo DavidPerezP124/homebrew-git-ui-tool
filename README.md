@@ -46,15 +46,20 @@ If you want to delete a hook, press 'd'
 </details>
 
 <details>
-  <summary>Handle a custom git log</summary>
+  <summary>Add custom commands</summary>
   
-  > :warning: **WIP**: This currently adds a new git-log executable file to the project!
-  
+  > :warning: Don't use programs that don't have static output like top, lsof, etc. They will break the app. Will add support for this in a future release.
 
-  You can currently create a new shell script by selecting Git log and editing the file
-  ![Screen Shot 2022-05-03 at 20 40 42](https://user-images.githubusercontent.com/32963483/166612811-f90dc911-664f-4eaa-ab4a-1701ae7bb7f9.png)
-![Screen Shot 2022-05-03 at 20 41 08](https://user-images.githubusercontent.com/32963483/166612823-0bdefac4-a3a1-49fd-aa4d-22570223c777.png)
-![Screen Shot 2022-05-03 at 20 41 15](https://user-images.githubusercontent.com/32963483/166612831-181d3889-bac7-47fa-8fe0-7ff9a6ccd130.png)
+  You can create a new bash command by, selectin the **Custom Commands** option.
+  ![Screen Shot 2022-05-26 at 19 10 27](https://user-images.githubusercontent.com/32963483/170603840-7b9f7c91-7c90-4768-b742-33f9a4e00c23.png)
+  Select 'a' to add a new command
+  ![Screen Shot 2022-05-26 at 19 10 44](https://user-images.githubusercontent.com/32963483/170603893-f6ccb018-2feb-4a62-82e1-beaf92d7c2f5.png)
+  Press 'enter'
+  ![Screen Shot 2022-05-26 at 19 10 50](https://user-images.githubusercontent.com/32963483/170604195-08c2f79e-5931-4e2e-b068-8ce77da2b844.png)
+  Now you can press 'e' to start editing your new command
+  ![Screen Shot 2022-05-26 at 19 19 20](https://user-images.githubusercontent.com/32963483/170604316-d2358869-644d-4ff3-8d76-f260f1fc9504.png)
+ ![Screen Shot 2022-05-26 at 19 19 35](https://user-images.githubusercontent.com/32963483/170604327-e25861ab-682c-42e2-89f1-90816833de79.png)
+
 
 </details>
 
